@@ -1,6 +1,6 @@
 # Cough Detection
 
-This page provides the list of recordings used in [1]. Details of the dataset used in this work and download instructions can be found in [2].
+This page provides the list of recordings used in [1]. More details on the dataset and download instructions can be found in [2].
 
 ### References
   [1] R.V. Sharan, ...
