@@ -1,8 +1,6 @@
-# Cough Detection
+# Cough Sound Segmentation (COUGHSEG) Dataset
 
-This page provides the list of recordings used in [1]. More details on the dataset and download instructions can be found in [2].
+This page provides access to the COUGHSEG dataset used for cough sound segmentation in [1]. The recordings in the COUGHSEG dataset have been taken from the [COUGHVID](https://zenodo.org/records/7024894) dataset. The COUGHSEG dataset has 400 recordings which have been annotated into 200 cough recordings and 200 non-cough recordings using the procedure described in [1]. Additionally, the cough sounds in the 200 cough recordings have been manually segmented. The manual cough segmentation results are provided in the TXT files where the number of rows indicate the number of cough sounds in that recording, the first column gives the start time of the cough in seconds, and the second column gives the end time of the cough in seconds. The manual cough segmentation data can be used for supervised classification tasks when developing automatic cough sound segmentation algorithms. The COUGHSEG dataset has been divided into 300 recordings for training and validation and 100 recordings for testing. If you have any questions you can contact roneel.sharan@essex.ac.uk.
 
 ### References
-  [1] R.V. Sharan, ...
-  
-  [2] L. Orlandic, T. Teijeiro, and D. Atienza, “The COUGHVID crowdsourcing dataset, a corpus for the study of large-scale cough analysis algorithms,” Scientific Data, vol. 8, no. 1, p. 156, 2021.
+[1] R. V. Sharan, "Cough sound detection from raw waveform using SincNet and bidirectional GRU," *Biomedical Signal Processing and Control*, vol. 82, 2023, Art no. 104580. DOI: https://doi.org/10.1016/j.bspc.2023.104580.
